@@ -2,20 +2,18 @@ package Utils;
 
 
 import Pages.activities.CalendarEventsPage;
+import Pages.activities.LoginPage;
 
 public class Pages {
 
-    private CalendarEventsPage calendarEventsPage;
+    private LoginPage loginPage;
 
 
-
-
-    public CalendarEventsPage calendarEventsPage() {
-        if (calendarEventsPage == null) {
-            calendarEventsPage = new CalendarEventsPage();
+    public LoginPage loginPage() {
+        if (loginPage == null) {
+            loginPage = new LoginPage();
         }
-        return calendarEventsPage;
+        return loginPage;
     }
-
 
 }
